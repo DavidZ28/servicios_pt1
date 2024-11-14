@@ -6,6 +6,9 @@
       <list>
         <option value="$PROJECT_DIR$/user/user/pom.xml" />
         <option value="$PROJECT_DIR$/UltimeSer/UltimeSer/pom.xml" />
+        <option value="$PROJECT_DIR$/sercives/sercives/pom.xml" />
+        <option value="$PROJECT_DIR$/services/services/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway - copia/gateway/pom.xml" />
       </list>
     </option>
   </component>

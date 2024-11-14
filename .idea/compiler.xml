@@ -10,11 +10,21 @@
         <module name="demo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo (1) (com.co.serna.gateway)" target="17" />
+      <module name="MicroservicioSpringCommons" target="17" />
+      <module name="sercives" target="17" />
+      <module name="services" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MicroservicioSpringCommons" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo (1) (com.co.serna.eureka)" options="-parameters" />
+      <module name="demo (1) (com.co.serna.gateway)" options="-parameters" />
+      <module name="sercives" options="-parameters" />
+      <module name="services" options="-parameters" />
     </option>
   </component>
 </project>
